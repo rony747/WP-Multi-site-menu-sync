@@ -84,34 +84,6 @@ The plugin intelligently maps menu items across sites:
 - **Custom Links**: Copied as-is
 - **Not Found**: Converted to custom links with original URL
 
-## Uninstallation
-
-When you uninstall the plugin:
-- All plugin settings are removed
-- Custom database table is dropped
-- Synced menus remain on target sites (not deleted)
-
-## Documentation
-
-Comprehensive documentation is available in the `/docs/` directory:
-
-- **ARCHITECTURE.md**: Technical architecture and design
-- **API.md**: Hooks, filters, and developer reference
-- **TESTING.md**: Testing guidelines and procedures
-- **USER_GUIDE.md**: Detailed user instructions
-- **DEVELOPMENT.md**: Development workflow and standards
-
-## Security
-
-The plugin implements WordPress security best practices:
-
-- Capability checks (`manage_network_options`)
-- Nonce verification on all forms
-- Input sanitization and validation
-- Output escaping
-- SQL injection prevention with prepared statements
-- XSS protection
-- CSRF protection
 
 ## License
 
