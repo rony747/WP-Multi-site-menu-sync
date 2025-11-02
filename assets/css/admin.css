@@ -1,0 +1,388 @@
+/**
+ * Admin Styles
+ *
+ * @package Avro_Multisite_Menu_Sync
+ * @since 1.0.0
+ */
+
+/* Dashboard Stats Grid */
+.avro-stats-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 20px;
+	margin: 20px 0;
+}
+
+.avro-stat-card {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-radius: 4px;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.avro-stat-card.success {
+	border-left: 4px solid #00a32a;
+}
+
+.avro-stat-card.error {
+	border-left: 4px solid #d63638;
+}
+
+.avro-stat-icon {
+	font-size: 32px;
+	color: #2271b1;
+}
+
+.avro-stat-card.success .avro-stat-icon {
+	color: #00a32a;
+}
+
+.avro-stat-card.error .avro-stat-icon {
+	color: #d63638;
+}
+
+.avro-stat-content h3 {
+	margin: 0;
+	font-size: 28px;
+	font-weight: 600;
+	line-height: 1;
+}
+
+.avro-stat-content p {
+	margin: 5px 0 0;
+	color: #646970;
+	font-size: 14px;
+}
+
+/* Configuration Status */
+.avro-config-status {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-radius: 4px;
+	padding: 20px;
+	margin: 20px 0;
+}
+
+.avro-config-status h2 {
+	margin-top: 0;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #c3c4c7;
+}
+
+.avro-config-status table {
+	margin-top: 15px;
+}
+
+.avro-site-url {
+	color: #646970;
+	font-size: 13px;
+}
+
+.avro-error {
+	color: #d63638;
+	font-weight: 600;
+}
+
+.avro-status-enabled {
+	color: #00a32a;
+	font-weight: 600;
+}
+
+.avro-status-disabled {
+	color: #d63638;
+	font-weight: 600;
+}
+
+.avro-notice {
+	background: #f0f6fc;
+	border-left: 4px solid #2271b1;
+	padding: 12px;
+	margin: 15px 0;
+}
+
+.avro-notice .dashicons {
+	color: #2271b1;
+	margin-right: 5px;
+}
+
+/* Menus Section */
+.avro-menus-section {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-radius: 4px;
+	padding: 20px;
+	margin: 20px 0;
+}
+
+.avro-menus-section h2 {
+	margin-top: 0;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #c3c4c7;
+}
+
+.avro-menus-section table {
+	margin-top: 15px;
+}
+
+.avro-muted {
+	color: #646970;
+	font-style: italic;
+}
+
+.avro-bulk-actions {
+	margin-top: 15px;
+	padding-top: 15px;
+	border-top: 1px solid #c3c4c7;
+}
+
+/* Recent Activity */
+.avro-recent-activity {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-radius: 4px;
+	padding: 20px;
+	margin: 20px 0;
+}
+
+.avro-recent-activity h2 {
+	margin-top: 0;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #c3c4c7;
+}
+
+.avro-recent-activity table {
+	margin-top: 15px;
+}
+
+.avro-status-success {
+	color: #00a32a;
+	font-weight: 600;
+}
+
+.avro-status-error {
+	color: #d63638;
+	font-weight: 600;
+}
+
+/* Settings Page */
+.avro-site-checkboxes label {
+	display: block;
+	padding: 8px 0;
+}
+
+.avro-info-box {
+	background: #f0f6fc;
+	border: 1px solid #2271b1;
+	border-radius: 4px;
+	padding: 20px;
+	margin: 30px 0;
+}
+
+.avro-info-box h3 {
+	margin-top: 0;
+	color: #2271b1;
+}
+
+.avro-info-box ul,
+.avro-info-box ol {
+	margin-left: 20px;
+}
+
+.avro-info-box li {
+	margin-bottom: 8px;
+}
+
+/* Logs Page */
+.avro-stats-summary {
+	display: flex;
+	gap: 30px;
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-radius: 4px;
+	padding: 20px;
+	margin: 20px 0;
+}
+
+.avro-stat-item {
+	flex: 1;
+}
+
+.avro-stat-item strong {
+	display: block;
+	margin-bottom: 5px;
+	font-size: 14px;
+	color: #646970;
+}
+
+.avro-stat-item.success {
+	color: #00a32a;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.avro-stat-item.error {
+	color: #d63638;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.avro-log-filters {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-radius: 4px;
+	padding: 15px;
+	margin: 20px 0;
+}
+
+.avro-log-filters form {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.avro-log-filters label {
+	font-weight: 600;
+}
+
+.avro-status-badge {
+	display: inline-block;
+	padding: 4px 10px;
+	border-radius: 3px;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.avro-status-badge.avro-status-success {
+	background: #d5f5e3;
+	color: #00a32a;
+}
+
+.avro-status-badge.avro-status-error {
+	background: #fce4e4;
+	color: #d63638;
+}
+
+.avro-log-actions {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-radius: 4px;
+	padding: 20px;
+	margin: 20px 0;
+}
+
+.avro-log-actions code {
+	display: block;
+	background: #f6f7f7;
+	padding: 10px;
+	margin: 10px 0;
+	border-radius: 3px;
+	font-family: monospace;
+}
+
+/* Modal */
+.avro-modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 100000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.avro-modal-content {
+	background: #fff;
+	padding: 30px;
+	border-radius: 4px;
+	max-width: 500px;
+	width: 90%;
+	text-align: center;
+}
+
+.avro-modal-content h2 {
+	margin-top: 0;
+}
+
+.avro-progress-bar {
+	width: 100%;
+	height: 30px;
+	background: #f0f0f1;
+	border-radius: 15px;
+	overflow: hidden;
+	margin: 20px 0;
+}
+
+.avro-progress-fill {
+	height: 100%;
+	background: linear-gradient(90deg, #2271b1, #135e96);
+	width: 0%;
+	transition: width 0.3s ease;
+	animation: progress-animation 1.5s ease-in-out infinite;
+}
+
+@keyframes progress-animation {
+	0% {
+		width: 0%;
+	}
+	50% {
+		width: 70%;
+	}
+	100% {
+		width: 100%;
+	}
+}
+
+.avro-sync-status {
+	color: #646970;
+	margin: 10px 0 0;
+}
+
+/* Responsive */
+@media (max-width: 782px) {
+	.avro-stats-grid {
+		grid-template-columns: 1fr;
+	}
+	
+	.avro-stats-summary {
+		flex-direction: column;
+		gap: 15px;
+	}
+	
+	.avro-log-filters form {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+}
+
+/* Loading State */
+.avro-loading {
+	opacity: 0.6;
+	pointer-events: none;
+}
+
+.avro-loading::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 20px;
+	height: 20px;
+	margin: -10px 0 0 -10px;
+	border: 2px solid #2271b1;
+	border-top-color: transparent;
+	border-radius: 50%;
+	animation: spin 0.6s linear infinite;
+}
+
+@keyframes spin {
+	to {
+		transform: rotate(360deg);
+	}
+}
