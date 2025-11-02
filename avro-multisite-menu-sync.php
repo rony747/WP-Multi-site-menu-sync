@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: Avro Multisite Menu Sync
- * Plugin URI: https://github.com/yourusername/avro-multisite-menu-sync
+ * Plugin URI: https://github.com/rony747/WP-Multi-site-menu-sync
  * Description: Synchronize navigation menus across WordPress multisite network
  * Version: 1.0.0
  * Author: t.i.rony
- * Author URI: https://example.com
+ * Author URI: https://tirony.me
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: avro-multisite-menu-sync
