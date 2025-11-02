@@ -4,7 +4,7 @@
  * Plugin URI: https://github.com/yourusername/avro-multisite-menu-sync
  * Description: Synchronize navigation menus across WordPress multisite network
  * Version: 1.0.0
- * Author: Your Name
+ * Author: t.i.rony
  * Author URI: https://example.com
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
